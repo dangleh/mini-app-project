@@ -6,7 +6,8 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start"
+    "start": "react-native start",
+    "ios:13": "npx react-native run-ios --simulator=\"iPhone 13 Pro Max\""
   },
   "dependencies": {
     "react": "16.13.1",

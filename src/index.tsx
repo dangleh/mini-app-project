@@ -1,3 +1,5 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import ChildrenNavigator from './ChildrenNavigator';
+import ChildrenPost from './ChildrenPost';
+
+export default ChildrenNavigator;
+export { ChildrenPost };
