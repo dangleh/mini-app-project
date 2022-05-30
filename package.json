@@ -1,5 +1,5 @@
 {
-  "name": "children-app",
+  "name": "mini-app",
   "version": "0.1.0",
   "description": "Children app",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "children-app.podspec",
+    "mini-app.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -29,20 +29,20 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn"
+    "bootstrap": "yarn && yarn example && yarn pods"
   },
   "keywords": [
     "react-native",
     "ios",
     "android"
   ],
-  "repository": "https://github.com/lehaidangdev/children-app",
+  "repository": "https://github.com/lehaidangdev/mini-app",
   "author": "Le Hai Dang <lehaidangdev@gmail.com> (https://github.com/lehaidangdev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lehaidangdev/children-app/issues"
+    "url": "https://github.com/lehaidangdev/mini-app/issues"
   },
-  "homepage": "https://github.com/lehaidangdev/children-app#readme",
+  "homepage": "https://github.com/lehaidangdev/mini-app#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

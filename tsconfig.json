@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "children-app": ["./src/index"]
+      "mini-app": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
